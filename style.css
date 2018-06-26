@@ -1,0 +1,47 @@
+body {
+  animation: anim 8s infinite;
+}
+
+.container {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 100%;
+  width: 40%;
+  text-align: justify;
+  margin: 150px auto;
+}
+
+@keyframes anim {
+  0% {
+    background-color: #d50000;
+  }
+  10% {
+    background-color: #c51162;
+  }
+  20% {
+    background-color: #aa00ff;
+  }
+  30% {
+    background-color: #6200ea;
+  }
+  40% {
+    background-color: #304ffe;
+  }
+  50% {
+    background-color: #2962ff;
+  }
+  60% {
+    background-color: #0091ea;
+  }
+  70% {
+    background-color: #00b8d4;
+  }
+  80% {
+    background-color: #00bfa5;
+  }
+  90% {
+    background-color: #00c853;
+  }
+  100% {
+    background-color: #64dd17;
+  }
+}
